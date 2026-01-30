@@ -6,3 +6,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+body {
+    background-color: rgba(15, 14, 14, 0.991);
+}
+#black-text {
+    color: rgb(255, 254, 254);
+}
