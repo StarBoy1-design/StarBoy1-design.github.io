@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+    #p-1 {
+         color: red;
+    }
+
+    #p-2 {
+        background-color: goldenrod;
+        color:azure;
+    }
+    #s-1 {
+        color:darkorchid;
+    }
+    #s-2 {
+        background-color: firebrick;
+    }
+}

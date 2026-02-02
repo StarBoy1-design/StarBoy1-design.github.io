@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#maki {
+    background-color :hwb(200 0% 0%);
+}
+#amal {
+    color :aqua;
+}
+#raph {
+    color :rgb(255, 255, 255);
+}
+#fermin {
+    color :rgba(255, 149, 0, 0.996);
+}
+#olmo {
+    color :rgb(213, 23, 255);
+}
+#freddy {
+    color :rgb(254, 26, 26);
+}
+#big {
+    color :rgb(49, 215, 24);
+}
+#naoya {
+    background-color:hwb(56 21% 13% / 0.644);
+}
+#toji {
+    background-color :hwb(109 37% 9%);
+}
+#amal {
+    background-color :hwb(248 37% 9%);
+}
+#fermin {
+    background-color :hwb(215 0% 0%);
+}
