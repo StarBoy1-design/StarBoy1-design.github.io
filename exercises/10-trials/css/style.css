@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#green {
+    color: green;
+}
+
+#teddy {
+    color: #F711F7;
+}
+
+#slump {
+    color: #F711F7;
+}
+
+#momma-chimp {
+    color: red;
+}
+
+#stein {
+    color: goldenrod;
+}
+
+#hannah {
+    color: blue;
+}
+
+#charlie {
+    background-color: skyblue;
+}
+
+#obama {
+    background-color: rgb(255, 255, 0);
+}
+
+#lucy {
+    font-weight: bold;
+}
+
+#eldrid {
+    font-weight: bold;
+}
+
+#luffy {
+    font-weight: bold;
+}
+
+#speed {
+    font-style: italic;
+}
+
+#fake {
+    font-style: italic;
+}
+
+#lesly {
+    text-decoration: underline;
+}
+
+#lol {
+    text-decoration: underline;
+}
+
+#heading {
+    font-size: 30px;
+}
+
+#itadori {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#yuji {
+    font-size: 12px;
+    text-align: center;
+}
+
+#kokusen {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}

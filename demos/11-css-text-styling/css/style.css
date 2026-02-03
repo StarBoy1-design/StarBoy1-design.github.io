@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#garp {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#amal {
+    font-style: italic;
+}
+
+#garp {
+    font-style: oblique;
+}
+
+#kuzan {
+    font-size: 20px;
+    text-align: center;
+}
+
+#anchor-1 {
+    text-decoration: none;
+    text-align: center;
+}
+
+#toru {
+    text-align: center;
+}
