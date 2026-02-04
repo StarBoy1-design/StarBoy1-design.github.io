@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#colored-text {
+    color: aquamarine;
+}
+
+.shadowed {
+    background-color:rgb(56, 64, 86);
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 4px rgb(82, 29, 129),
+    -4px -4px 8px rgb(148, 148, 201);
+    font-style: italic;
+}
+
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    color: blueviolet;
+}

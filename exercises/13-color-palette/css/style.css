@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(237, 246, 255, 0.991);
+}
+
+h4 {
+    color:white;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+.color-palette {
+    text-align: center;
+    box-shadow: 6px 6px 12px #989898;
+    margin: 24px;
+    padding: 24px;
+}
+
+.color {
+    margin: 0px;
+    padding: 24px;
+}
+
+#rocks {
+    background-color: #0E7C7B;
+}
+
+#d {
+    background-color: #17BEBB;
+}
+
+#xebec {
+    background-color: #D4F4DD;
+}
+
+#whitebeard {
+    background-color: #D62246;
+}
+
+#roger {
+    background-color: #4B1D3F;
+}
+
+#luffy {
+    background-color: #00072D;
+}
+
+#zoro {
+    background-color: #001C55;
+}
+
+#sanji {
+    background-color: #0A2472;
+}
+
+#brook {
+    background-color: #0E6BA8;
+}
+
+#tony {
+    background-color: #A6E1FA;
+}
+
+#toji {
+    background-color: #3772FF;
+}
+
+#maki {
+    background-color: #F038FF;
+}
+
+#naoya {
+    background-color: #EF709D;
+}
+
+#megumi {
+    background-color: #E2EF70;
+}
+
+#naobito {
+    background-color: #70E4EF;
+}
+
