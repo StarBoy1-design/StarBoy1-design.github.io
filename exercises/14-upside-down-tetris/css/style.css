@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: block;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#container {
+    background-color: darkgrey;
+    width: 500px;
+    min-height: 100vh;
+    font-size: 0px
+
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+.purple {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+}
+
+.tall-green {
+    width: 100;
+    height: 100;
+    background-color: green;
+    display: inline-block;
+}
+
+.blue {
+    width: 100;
+    height: 100;
+    background-color: blue;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}

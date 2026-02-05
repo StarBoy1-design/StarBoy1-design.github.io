@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: blueviolet;
+    display: block;
+}
+
+div {
+    background-color: dodgerblue;
+    display: inline-block;
+    width: 200px;
+    margin: 12px;
+    padding: 12px;
+}
+
+p {
+    background-color: cornflowerblue;
+    width: 200px;
+}
+
+#yamal,
+#three-columns {
+    background-color:deepskyblue;
+    display: block;
+    width: auto;
+}
+
+#media {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+#text {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 24px;
+    font-size: 48px;
+    text-align: center
+}
+
+.column {
+    background-color: transparent;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
