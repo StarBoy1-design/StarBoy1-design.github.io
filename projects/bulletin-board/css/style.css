@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    padding: 24px;
+    margin: 24px;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    font-family: "Playwrite NZ Basic", cursive;
+    font-size: small;
+}
+
+h3 {
+    display: inline;
+    text-decoration: line-through;
+}
+
+.green {
+    background-color: darkseagreen;
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.yeller {
+    background-color: yellow;
+}
+
+.rukia {
+    background-color: rgb(186, 225, 225);
+    vertical-align: top;
+    text-align: center;
+}
+
+.purple {
+    background-color: blueviolet;
+    text-align: center;
+    display: inline-block;
+}
+
+.teal {
+    background-color: teal;
+    text-align: center;
+    display: inline-block;
+}
+
+.bankai {
+    background-color: rgb(200, 62, 62);
+    text-align: center;
+    display: inline-block;
+}
