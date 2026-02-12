@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button {
+    margin: 24px;
+    padding: 24px;
+    border: 3px solid rgb(173, 179, 230);
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(to bottom left, lightblue, rgb(209, 74, 195));;
+}
