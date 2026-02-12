@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    background-color:beige;
+    color: dark;
+    border: dotted 6px goldenrod;
+}
+
+#container {
+    
+    text-align: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 700px;
+    border: black 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alone {
+    display: block;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
