@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color:hotpink
+}
+
+p {
+    margin: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+div {
+    background-color:rgb(247, 143, 195);
+    border: 3px dashed pink;
+    border-radius: 20%;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px;
+    max-width: 800px;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: whitesmoke;
+}

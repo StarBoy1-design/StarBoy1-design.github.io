@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container {
+    background-color: rgb(252, 252, 146);
+    padding: 48px 24px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bungee", sans-serif;
+}
+
+.nd-container {
+    background: linear-gradient( rgb(252, 252, 146), violet);
+    padding: 48px 24px;
+    text-align: center;
+}
+
+.rd-container {
+    background: linear-gradient( violet, lightgoldenrodyellow);
+    background-color:lightgoldenrodyellow;
+    padding: 48px 24px;
+    text-align: center;
+}
+
+a {
+    font-style: italic;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid plum;
+    margin: 35px;
+}
