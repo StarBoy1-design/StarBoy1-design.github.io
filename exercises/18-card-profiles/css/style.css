@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    max-width: 270px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 24px 0px 0px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    border: solid 4px;
+}
+
+#toji {
+    background: linear-gradient(to bottom right, gray, purple);
+}
+
+#yuji {
+    background: linear-gradient(to bottom right, red, black);
+}
+
+#megumi {
+    background: linear-gradient(to bottom right, gray, rgb(0, 0, 0));
+}
+
+a {
+    background: linear-gradient(to bottom right, blue, rgb(180, 83, 224));
+    margin: 24px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 12px;
+}
