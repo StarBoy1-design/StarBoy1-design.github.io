@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+    background-image: url("../images/pexels-angela-roma-7363747.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    max-width: 200px;
+    border: 4px dashed rgba(255, 255, 255, 0.754);
+    border-radius: 20px;
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+    background-image: url("../images/chinese-new-year.jpg");
+    height: 300;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 24px 0px 0px;
+}
+
+a {
+    margin: 24px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.gold {
+    color: gold;
+}
+
+h4 {
+    font-family: "Archivo Black", sans-serif;
+}

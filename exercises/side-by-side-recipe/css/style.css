@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&family=Oxygen:wght@300;400;700&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.sinster-mark {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.sinster-mark img,
+.sinster-mark h1,
+.image-container,
+.text-container {
+    flex: 1;
+}
+
+.sinster-mark .image-container img {
+    width: 100%;
+}
+
+.sinster-mark h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 580px) {
+    .sinster-mark h1 {
+        font-size: 24px;
+    }
+}
+
+sinster-mark {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.sinster-mark .image-container {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+p, h3 {
+    font-family: "Oxygen", sans-serif;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+}
