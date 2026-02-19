@@ -45,9 +45,10 @@ body {
     margin-left: 24px;
  }
 
- #page-name {
+ .page-name {
     font-family: "Oxygen", sans-serif;
     text-align: center;
     font-weight: bold;
     color: rgba(188, 74, 51, 0.936);
+    text-decoration: none;
  }
