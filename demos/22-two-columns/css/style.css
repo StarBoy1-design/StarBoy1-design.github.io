@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    /* background-color: lightblue; */
+    /* flex: 1; */
+    width: 200px;
+    order:2 ;
+}
+
+#main-content {
+    background-color: lightgreen;
+    flex: 2;
+}
+
+#sidebar-content h2 {
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 24px;
+    font-size: 16px;
+}
+
+#sidebar-content ul {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px 12px;
+}
