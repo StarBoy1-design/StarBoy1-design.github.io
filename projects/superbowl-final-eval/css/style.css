@@ -9,7 +9,7 @@ body {
     justify-content: center;
     background-image: url(../images/El_Classico_Background.jpg);
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     height: 145vh;
     display: flex;
     justify-content: flex-start;
@@ -22,7 +22,6 @@ body {
 #single-column {
     width: 80%;
     max-width: 800vw;
-   /* background-color:lightgreen;*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -35,7 +34,7 @@ h1 {
 
 p {
     font-family: "Oxanium", sans-serif;
-    font-size: 20px
+    font-size: 20px;
 }
 
 h5 {
@@ -89,8 +88,8 @@ a {
 }
 
 #barca h5 {
- display: flex;
- bottom: 12px;
+    display: flex;
+    bottom: 12px;
 }
 
 #midrid h5 {
