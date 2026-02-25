@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Jura:wght@300..700&family=Noto+Sans+JP:wght@100..900&family=Oxanium:wght@200..800&family=Oxygen:wght@300;400;700&family=Playwrite+NZ+Basic:wght@100..400&family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    justify-content: center;
+    background-image: url(../images/El_Classico_Background.jpg);
+    background-position: center center;
+    background-size:cover;
+    height: 145vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10%;
+    flex-direction: column;
+    color: rgb(202, 176, 45);
+}
+
+#single-column {
+    width: 80%;
+    max-width: 800vw;
+   /* background-color:lightgreen;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 60px;
+}
+
+p {
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px
+}
+
+h5 {
+    font-family: "Oxanium", sans-serif;
+    margin: 0px;
+}
+
+h4 {
+    font-family: "Oxanium", sans-serif;
+    font-size: 26px;
+    margin: 0px;
+}
+
+a {
+    border: solid 2px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.midrid {
+    width: 200px;
+    margin: 24px;
+    padding: 12px;
+    position: relative;
+}
+
+.barca {
+    width: 230px;
+    margin: 24px;
+    padding: 5px;
+    position: relative;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams h2 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.teams h5 {
+    display: block;
+}
+
+#barca h5 {
+ display: flex;
+ bottom: 12px;
+}
+
+#midrid h5 {
+    display: flex;
+    bottom: 12px;
+}
+
+#barcelona {
+    border: solid 4px rgb(14, 65, 167);
+    background-color: rgb(164, 34, 62);
+    color: goldenrod;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#madrid {
+    border: solid 4px gold;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    color: rgba(0, 0, 255, 0.865);
+    background-color: white;
+}
