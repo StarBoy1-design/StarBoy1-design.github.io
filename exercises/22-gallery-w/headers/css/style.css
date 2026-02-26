@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(234, 207, 132);
+}
+
+#navbar {
+    background-color: rgba(220, 171, 57, 0.936);
+    display: flex; 
+    /* space-between top */
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 24px;
+    font-style: italic;
+    
+}
+
+#logo-title {
+    margin-right: auto;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.horizontal-masonry-gallery {
+    gap: 24px;
+    background-color: #e0c178bb;
+    padding: 40px;
+    margin: 40px;
+    columns: 3 auto;
+}
+
+.horizontal-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#content {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 40px;
+    padding: 40px;
+    font-family: "Cinzel", serif;
+}
+
+span {
+    text-decoration-line: line-through;
+}
+
+#centered-hero {
+    background-image: url(../images/EagleSD.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 70px;
+}
+
