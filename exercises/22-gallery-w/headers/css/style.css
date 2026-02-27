@@ -41,10 +41,11 @@ body {
 
 .horizontal-masonry-gallery {
     gap: 24px;
+    border: solid 5px #cda445bb;
     background-color: #e0c178bb;
     padding: 40px;
     margin: 40px;
-    columns: 3 auto;
+    columns: 3;
 }
 
 .horizontal-masonry-gallery img {
@@ -83,7 +84,35 @@ span {
     text-align: center;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 70px;
 }
 
+/* tablet breakpoint */
+@media screen and (max-width: 640px) {
+
+    #content h1 {
+        font-size: 44px;
+    }
+    
+    #layouts {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* mobile breakpoint */
+@media screen and (max-width: 450px) {
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content h1 {
+        font-size: 28px;
+    }
+
+    #layouts img {
+        display: block;
+    }
+}
